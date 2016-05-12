@@ -1,0 +1,363 @@
+
+
+*******************************************************************************
+Wed May 11 18:54:50 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*i
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed May 11 18:55:17 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0089305146e+04   0.00e+00  1.73e+01    1.000000e-07   1.000000e-04
+   5 2.8170852569e+00  -1.58e-10  1.73e+03    2.646640e-07   3.192513e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.81709
+rel. change during last iteration : -1.57641e-15
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.433366
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.187806
+p-value of the Chisq distribution (FIT_P)              : 0.999728
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.64664e-07      +/- 2.594e-07    (98%)
+b               = 3.19251e-07      +/- 2.122e-08    (6.646%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.912  1.000 
+
+
+*******************************************************************************
+Wed May 11 18:56:32 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0089305146e+04   0.00e+00  1.73e+01    1.000000e-07   1.000000e-04
+   5 2.8170852569e+00  -1.58e-10  1.73e+03    2.646640e-07   3.192513e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.81709
+rel. change during last iteration : -1.57641e-15
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.433366
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.187806
+p-value of the Chisq distribution (FIT_P)              : 0.999728
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.64664e-07      +/- 2.594e-07    (98%)
+b               = 3.19251e-07      +/- 2.122e-08    (6.646%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.912  1.000 
+
+
+*******************************************************************************
+Wed May 11 18:57:48 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0089305146e+04   0.00e+00  1.73e+01    1.000000e-07   1.000000e-04
+   5 2.8170852569e+00  -1.58e-10  1.73e+03    2.646640e-07   3.192513e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.81709
+rel. change during last iteration : -1.57641e-15
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.433366
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.187806
+p-value of the Chisq distribution (FIT_P)              : 0.999728
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.64664e-07      +/- 2.594e-07    (98%)
+b               = 3.19251e-07      +/- 2.122e-08    (6.646%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.912  1.000 
+
+
+*******************************************************************************
+Wed May 11 18:58:27 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0089305146e+04   0.00e+00  1.73e+01    1.000000e-07   1.000000e-04
+   5 2.8170852569e+00  -1.58e-10  1.73e+03    2.646640e-07   3.192513e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.81709
+rel. change during last iteration : -1.57641e-15
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.433366
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.187806
+p-value of the Chisq distribution (FIT_P)              : 0.999728
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.64664e-07      +/- 2.594e-07    (98%)
+b               = 3.19251e-07      +/- 2.122e-08    (6.646%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.912  1.000 
+
+
+*******************************************************************************
+Wed May 11 18:59:32 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0089305146e+04   0.00e+00  1.73e+01    1.000000e-07   1.000000e-04
+   5 2.8170852569e+00  -1.58e-10  1.73e+03    2.646640e-07   3.192513e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.81709
+rel. change during last iteration : -1.57641e-15
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.433366
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.187806
+p-value of the Chisq distribution (FIT_P)              : 0.999728
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.64664e-07      +/- 2.594e-07    (98%)
+b               = 3.19251e-07      +/- 2.122e-08    (6.646%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.912  1.000 
+
+
+*******************************************************************************
+Wed May 11 18:59:45 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0089305146e+04   0.00e+00  1.73e+01    1.000000e-07   1.000000e-04
+   5 2.8170852569e+00  -1.58e-10  1.73e+03    2.646640e-07   3.192513e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.81709
+rel. change during last iteration : -1.57641e-15
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.433366
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.187806
+p-value of the Chisq distribution (FIT_P)              : 0.999728
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.64664e-07      +/- 2.594e-07    (98%)
+b               = 3.19251e-07      +/- 2.122e-08    (6.646%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.912  1.000 
+
+
+*******************************************************************************
+Wed May 11 19:03:10 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.1262766961e+04   0.00e+00  1.83e+01    1.000000e-07   1.000000e-04
+   5 3.2677440160e+00  -6.74e-02  1.83e-04    9.153593e-08   3.142342e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.26774
+rel. change during last iteration : -6.74299e-07
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.466744
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.21785
+p-value of the Chisq distribution (FIT_P)              : 0.99932
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 9.15359e-08      +/- 2.919e-07    (318.9%)
+b               = 3.14234e-07      +/- 2.261e-08    (7.195%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.920  1.000 
+
+
+*******************************************************************************
+Wed May 11 19:03:41 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.1096105626e+04   0.00e+00  1.81e+01    1.000000e-07   1.000000e-04
+   5 2.8254173030e+00  -7.85e-01  1.81e-04    1.084424e-08   3.226264e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.82542
+rel. change during last iteration : -7.85141e-06
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.434006
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.188361
+p-value of the Chisq distribution (FIT_P)              : 0.999723
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.08442e-08      +/- 2.754e-07    (2540%)
+b               = 3.22626e-07      +/- 2.149e-08    (6.66%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.922  1.000 
+
+
+*******************************************************************************
+Wed May 11 19:08:01 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.1096105626e+04   0.00e+00  1.81e+01    1.000000e-07   1.000000e-04
+   5 2.8254173030e+00  -7.85e-01  1.81e-04    1.084424e-08   3.226264e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.82542
+rel. change during last iteration : -7.85141e-06
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.434006
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.188361
+p-value of the Chisq distribution (FIT_P)              : 0.999723
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.08442e-08      +/- 2.754e-07    (2540%)
+b               = 3.22626e-07      +/- 2.149e-08    (6.66%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.922  1.000 
+
+
+*******************************************************************************
+Thu May 12 20:21:15 2016
+
+
+FIT:    data read from 'silber.dat' using 1:($2*1e-06):(0.5):(1e-06) xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: u(x)
+	u(x)=a+b*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.1096105626e+04   0.00e+00  1.81e+01    1.000000e-07   1.000000e-04
+   5 2.8254173030e+00  -7.85e-01  1.81e-04    1.084424e-08   3.226264e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.82542
+rel. change during last iteration : -7.85141e-06
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.434006
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.188361
+p-value of the Chisq distribution (FIT_P)              : 0.999723
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.08442e-08      +/- 2.754e-07    (2540%)
+b               = 3.22626e-07      +/- 2.149e-08    (6.66%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.922  1.000 
