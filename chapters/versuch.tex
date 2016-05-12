@@ -5,7 +5,7 @@ Anhand der Messwerte wurde jeweils
 \begin{itemize}
 \item die Hallkonstante $R_H$
 \item die Ladungsträgerkonzentration $n$
-\item die Driftgechwindigkeit der Ladungsträger $v$
+\item die Driftgeschwindigkeit der Ladungsträger $v$
 \end{itemize}
 bestimmt.
 
@@ -160,5 +160,96 @@ Der Fehler beträgt
 &= \SI{0.62e-5}{\meter\per\second\per\ampere}
 \end{align*}
 
-Die Proportionalitätskonstante für die Driftgechwindigkeit in Abhängigkeit von der Querstromstärke ist also:
+Die Proportionalitätskonstante für die Driftgeschwindigkeit in Abhängigkeit von der Querstromstärke ist also:
 $$\frac{v}{I} = \SI{8.27 \pm 0.62e-5}{\meter\per\second\per\ampere}$$
+
+\section{Germaniumplättchen}
+\subsection{Material}
+\begin{itemize}
+\item Germaniumplättchen
+\item Labornetzteil für den Querstrom (bis 30mA)
+\item U-förmiger Dauermagnet
+\item Mobile-Cassy mit Spannungsmesser
+\item Multimeter für die Stromstärkemessung
+\item Teslameter
+\end{itemize}
+
+\subsection{Durchführung}
+Da das Germaniumplättchen nicht gut in den Elektromagneten gepasst hat, wurde für diesen Versuch ein Dauermagnet verwendet. Das Plättchen wurde mit Stativmaterial im Magnetfeld des Dauermagneten befestigt. Das Labornetzteil wurde an die Anschlüsse für den Querstrom angeschlossen; das Multimeter wurde ebenfalls in diesen Stromkreis eingebaut und auf „\SI{}{\milli\ampere}” gestellt. Das CASSY wurde an die Anschlüsse für die Hallspannung angeschlossen.
+
+Mit dem Teslameter wurde die Stärke des Magnetfeldes des Dauermagneten bestimmt. Dann wurde der Magnet entfernt, der Querstrom auf \SI{30}{\milli\ampere} gestellt und das Potentiometer am Germaniumplättchen so eingestellt, dass das Spannungsmessgerät \SI{0}{\volt} anzeigt. Dann wurde der Magnet wieder eingesetzt.
+
+Bei der Messung wurde die Querstromstärke in \SI{1}{\milli\ampere}-Schritten bis auf \SI{0}{\milli\ampere} verringert und die jeweils zugehörige gemessene Hallspannung notiert.
+
+\subsection{Messergebnisse}
+Die Magnetfeldstärke betrug $B=\SI{705}{\milli\tesla}$. Das Plättchen hat eine Dicke von $d=\SI{1e-3}{\meter}$
+
+\begin{figure}[H]
+\centering
+\csvreader[tabular=cc, table head=Querstrom $I_Q$ in \SI{}{\milli\ampere} & Hallspannung $U_H$ in \SI{}{\milli\volt}\\\Xhline{4\arrayrulewidth}, late after line=\\\hline]{data/germanium.dat}{}{\num{\csvcoli} & \num{\csvcolii}}
+\caption{Messwerte mit Germanium}
+\end{figure}
+
+Für eine Fehlerrechnung werden folgende Fehler zu Grunde gelegt:
+\begin{align*}
+I_Q &: \pm \SI{0.5}{\milli\ampere} \\
+U_H &: \pm \SI{1}{\milli\volt} \\
+B &: \pm \SI{6}{\milli\tesla} \\
+\end{align*}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{data/germanium.pdf}
+\caption{Graphische Darstellung und Auswertung der Messwerte mit Germanium}
+\end{figure}
+
+\subsection{Auswertung}
+Die lineare Regression mit \texttt{GNUplot} liefert
+$$m = \SI{9.140 \pm 0.002}{\volt\per\ampere}$$
+
+\subsubsection{Hallkonstante}
+\begin{align*}
+R_H &= \frac{m \cdot d}{B} \\
+    &= \frac{\SI{9.140}{\volt\per\ampere} \cdot  \SI{1e-3}{\meter}}{\SI{0.705}{\tesla}} \\
+    &= \SI{1.30e-2}{\cubic\meter\per\coulomb}
+\end{align*}
+Der Fehler beträgt:
+\begin{align*}
+\Delta R_H &= \SI{1.30e-2}{\cubic\meter\per\coulomb} \cdot \sqrt{\left(\frac{\SI{0.002}{\volt\per\ampere}}{\SI{9.140}{\volt\per\ampere}}\right)^2 + \left(\frac{\SI{0.006}{\tesla}}{\SI{0.705}{\tesla}}\right)^2} \\
+&= \SI{1.10e-4}{\cubic\meter\per\coulomb}
+\end{align*}
+Die Hallkonstante des Germaniumplättchens beträgt:
+$$ R_H = \SI{1.30 \pm 0.02e-2}{\cubic\meter\per\coulomb} $$
+In der Anleitung des Germaniumplättchens ist die Hallkonstante als \SIrange{0.5e-2}{1.5e-2}{\cubic\meter\per\coulomb} angegeben. In diesem Bereich liegt auch unser Messergebnis.
+
+\subsubsection{Ladungsträgerkonzentration}
+\begin{align*}
+n &= \frac{1}{R_H \cdot e} \\
+  &= \frac{1}{\SI{1.30e-2}{\cubic\meter\per\coulomb} \cdot \SI{1.602e-19}{\coulomb}} \\
+  &= \SI{4.80e20}{\per\cubic\meter}
+\end{align*}
+Der Fehler beträgt:
+\begin{align*}
+\Delta n &= \SI{4.80e20}{\per\cubic\meter} \cdot \frac{\SI{0.02e-2}{\cubic\meter\per\coulomb}}{\SI{1.20e-2}{\cubic\meter\per\coulomb}} \\
+&= \SI{8.01e18}{\per\cubic\meter}
+\end{align*}
+Die Ladungsträgerkonzentration im Germanium-Halbleiterplättchen beträgt:
+$$n = \SI{4.80 \pm 0.08e20}{\per\cubic\meter}$$
+
+\subsubsection{Driftgeschwindigkeit}
+
+Die Höhe des Plättchens beträgt
+$$h = \SI{5e-3}{\meter}$$
+
+\begin{align*}
+\frac{v}{I} &= \frac{1}{n \cdot h \cdot d \cdot e} \\
+&= \frac{1}{\SI{4.80e20}{\per\cubic\meter} \cdot \SI{5e-3}{\meter} \cdot \SI{1e-3}{\meter} \cdot \SI{1.602e-19}{\coulomb}} \\
+&= \SI{2600.91}{\meter\per\second\per\ampere}
+\end{align*}
+Der Fehler beträgt:
+\begin{align*}
+\Delta \frac{v}{I} &= \SI{2600.91}{\meter\per\second\per\ampere} \cdot \frac{\SI{0.08e20}{\per\cubic\meter}}{\SI{4.80e20}{\per\cubic\meter}} \\
+&= \SI{43.34}{\meter\per\second\per\ampere}
+\end{align*}
+Die Proportionalitätskonstante für die Driftgeschwindigkeit in Abhängigkeit von der Querstromstärke beträgt:
+$$\frac{v}{I} = \SI{2600.92 \pm 43.34}{\meter\per\second\per\ampere}$$
