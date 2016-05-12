@@ -136,4 +136,29 @@ Der Fehler beträgt:
 Somit kann man das Verhältnis aus Ladungsträgern und Atomen angeben mit:
 $$z = \SI{1.28 \pm 0.09}{}$$
 
-\subsubsection{Driftgechwindigkeit}
+\subsubsection{Driftgeschwindigkeit}
+Für die Driftgeschwindigkeit $v$ gilt:
+\begin{align*}
+v &= \frac{I \cdot s}{n \cdot V \cdot e} \\
+  &= \frac{I}{n \cdot h \cdot d \cdot e}
+\end{align*}
+Die Driftgeschwindigkeit ist abhängig von der Stromstärke.
+$$v(I) = \frac{1}{n \cdot h \cdot d \cdot e} \cdot I$$
+Das Silberplättchen hat eine Höhe von
+$$h = \SI{0.02 \pm 0.0001}{\meter}$$
+Mit unseren Messwerten ergibt sich für den Faktor:
+\begin{align*}
+\frac{v}{I} &= \frac{1}{n \cdot h \cdot d \cdot e} \\
+    &= \frac{1}{\SI{7.55e28}{\per\cubic\meter} \cdot \SI{0.02}{\meter} \cdot \SI{5e-5}{\meter} \cdot \SI{1.602e-19}{\coulomb}} \\
+    &= \SI{8.27e-5}{\meter\per\second\per\ampere}
+\end{align*}
+
+Der Fehler beträgt
+
+\begin{align*}
+\Delta \frac{v}{I} &= \SI{8.27e-5}{\meter\per\second\per\ampere} \cdot \sqrt{\left(\frac{\SI{0.0001}{\meter}}{\SI{0.02}{\meter}}\right)^2 + \left(\frac{\SI{0.56e28}{\per\cubic\meter}}{\SI{7.55e28}{\per\cubic\meter}}\right)} \\
+&= \SI{0.62e-5}{\meter\per\second\per\ampere}
+\end{align*}
+
+Die Proportionalitätskonstante für die Driftgechwindigkeit in Abhängigkeit von der Querstromstärke ist also:
+$$\frac{v}{I} = \SI{8.27 \pm 0.62e-5}{\meter\per\second\per\ampere}$$

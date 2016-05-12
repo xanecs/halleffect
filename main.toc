@@ -11,3 +11,4 @@
 \contentsline {subsubsection}{\nonumberline Hallkonstante}{8}
 \contentsline {subsubsection}{\nonumberline Ladungstr\IeC {\"a}gerkonzentration}{9}
 \contentsline {subsubsection}{\nonumberline Anzahl der Leitungselektronen pro Atom}{9}
+\contentsline {subsubsection}{\nonumberline Driftgeschwindigkeit}{10}
