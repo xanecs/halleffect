@@ -1,5 +1,5 @@
 \chapter{Versuch}
-Beim Versuch wurde das Leiter bzw. Halbleiterplättchen jeweils in ein homogenes Magnetfeld gestellt. Die Stärke des Magnetfeldes wurde mit einem Teslameter bestimmt. An das Hallplättchen wurde ein Querstrom $I_Q$ angelegt und variiert. Es wurde die Hallspannung $U_H$ in Abhängigkeit zum Querstrom gemessen.
+Beim Versuch wurde das Leiter bzw. Halbleiterplättchen jeweils in ein homgenes Magnetfeld gestellt. Die Stärke des Magnetfeldes wurde mit einem Teslameter bestimmt. An das Hallplätchen wurde ein Querstrom $I_Q$ angelegt und varriiert. Es wurde die Hallspannung $U_H$ in Abhängigkeit zum Querstrom gemessen.
 
 Anhand der Messwerte wurde jeweils
 \begin{itemize}
@@ -28,8 +28,8 @@ Beim Silberplättchen wurde zusätzlich noch die Anzahl der Leitungselektronen p
 \subsection{Durchführung}
 Das Silberplättchen wurde in den Elektromagneten eingespannt.
 Die beiden Spulen des Elektromagneten wurden in Reihe geschaltet und an ein Labornetzteil angeschlossen.
-Die beiden Anschlüsse des Silberplättchens wurden an ein weiteres Labornetzteil angeschlossen. Die beiden Spulen wurden in Reihe geschaltet und ebenfalls in Reihe in den Querstromkreis eingebaut.
-Die beiden Anschlüsse für die Hallspannung am Silberplättchens wurden an die Mikrovoltbox angeschlossen, welche an das Mobile-CASSY gesteckt wurde.
+Die beiden Anschlüsse des Silberplättchens wurden an ein weiteres Labornetzteil angeschlossen. Die beiden Spulen wurden in Reihe geschaltet und ebenfalls in Reihe in den Querstromkreis eigebaut.
+Die beiden Anschlüsse für die Hallspannung am Silberplättchens wurden an die Mikrovoltbox angeschlossen, welche an das Mobile-Cassy gesteckt wurde.
 
 Dann wird der Elektromagnet eingeschaltet. Der Strom betrug $I_{mag} = \SI{4.74}{\ampere}$
 Das Teslameter wurde außerhalb des Magnetfeldes justiert, so dass es \SI{0}{\milli\tesla} anzeigt.
@@ -175,7 +175,7 @@ $$\frac{v}{I} = \SI{8.27 \pm 0.62e-5}{\meter\per\second\per\ampere}$$
 \item Germaniumplättchen
 \item Labornetzteil für den Querstrom (bis 30mA)
 \item U-förmiger Dauermagnet
-\item Mobile-CASSY mit Spannungsmessgerät
+\item Mobile-Cassy mit Spannungsmesser
 \item Multimeter für die Stromstärkemessung
 \item Teslameter
 \end{itemize}

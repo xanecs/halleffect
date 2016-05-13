@@ -1,16 +1,16 @@
 \chapter{Theorie}
 %TODO: Include graphic
 \section{Driftgeschwindigkeit}
-Schließt an einen elektrischen Leiter eine Ladungspumpe an, so entsteht entlang des Leiters ein elektrisches Feld. Durch das elektrische Feld erfahren die freien Elektronen im Leiter die Kraft:
+Schließt an einen elektrischen Leiter eine Ladungspumpe an, so entseht entlang des Leiters ein elektrisches Feld. Durch das elektrische Feld erfahren die freien Elektronen im Leiter die Kraft:
 $$F_{el} = E \cdot e$$
 
-Die durch diese Kraft beschleunigten Teilchen stoßen mit übrigen Teilen des Leiters zusammen. Es stellt sich eine Durchschnittsgeschwindigkeit im Leiter ein.
+Die durch diese Kraft beschleunigten Teilchen stoßen mit übrigen Teilen des Leiters zusammen. Es stellt sich eine Durchschnittsgechwindigkeit im Leiter ein.
 Diese Geschwindigkeit nennt man \emph{Driftgeschwindigkeit} der Elektronen.
 
 Wir betrachten ein Leiterplättchen mit der Breite $s$ und der Höhe $h$.
-Fließt Strom durch das Plättchen, bewegen sich alle Elektronen im Leiter mit $\vec{v}$ Richtung Pluspol. Dafür benötigen sie die Zeit
+Fließt Strom durch das Plättchen, bewegen sich alle Elektronen im Leiter mit $\vec{v}$ richtung Pluspol. Dafür benötigen sie die Zeit
 $$t = \frac{s}{v}$$
-In dieser Zeit übertragen alle $N$ strömenden Elektronen die Ladung 
+In dieser Zeit übertragen alle $N$ strömenen Elektronen die Ladung 
 $$Q = N \cdot e$$ 
 Dabei fließt die Stromstärke
 $$I = \frac{Q}{t} = \frac{N \cdot e}{s} \cdot v$$
@@ -24,12 +24,12 @@ Die Elektronen wandern also auf eine Seite des Leiters. Wenn die Elektronen z.~B
 
 Die Elektronen „sammeln“ sich an einer Seite. Durch diese Ladungsverschiebung entsteht im Leiterplättchen ein elektrisches Feld. Nach kurzer Zeit stellt sich das Kräftegleichgewicht
 $$F_L = F_{el}$$
-ein. Die weiteren Elektronen durchlaufen das Plättchen also geradlinig.
+ein. Die weiteren Elektronen durchlaufen das Plättchen also geradling.
 Misst man an zwei direkt gegenüberliegenden Punkten oben und unten am Plättchen die Spannung, erhält man die Hallspannung $U_H$.
 
 Nach der Formel für die Spannung eines Elektrischen Feldes $E = \frac{U}{d}$ ergibt sich für $U_H$:
 $$U_H = E \cdot h$$
-E lässt sich aus der Kraft, die das Feld auf die Elektronen ausübt bestimmen. Da diese Kraft im Gleichgewicht mit der Lorentzkraft steht, gilt für die Feldstärke $E$
+E lässt sich aus der Kraft, die das Feld auf die Elektronen ausübt bestimmen. Da diese Kraft im Gleichegwicht mit der Lorentzkraf steht, gilt für die Feldstärke $E$
 $$E = \frac{F_L}{e}$$
 $$E = B \cdot v$$
 
