@@ -1,25 +1,25 @@
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {1}Theorie}{3}
-\contentsline {section}{\numberline {1.1}Driftgeschwindigkeit}{3}
-\contentsline {section}{\numberline {1.2}Halleffekt}{3}
-\contentsline {chapter}{\numberline {2}Versuch}{5}
-\contentsline {section}{\numberline {2.1}Silberpl\IeC {\"a}ttchen}{5}
-\contentsline {subsection}{\numberline {2.1.1}Material}{5}
-\contentsline {subsection}{\numberline {2.1.2}Durchf\IeC {\"u}hrung}{6}
-\contentsline {subsection}{\numberline {2.1.3}Messergebnisse}{6}
-\contentsline {subsection}{\numberline {2.1.4}Auswertung}{8}
-\contentsline {subsubsection}{\nonumberline Hallkonstante}{8}
-\contentsline {subsubsection}{\nonumberline Ladungstr\IeC {\"a}gerkonzentration}{9}
-\contentsline {subsubsection}{\nonumberline Anzahl der Leitungselektronen pro Atom}{10}
-\contentsline {subsubsection}{\nonumberline Driftgeschwindigkeit}{10}
-\contentsline {section}{\numberline {2.2}Germaniumpl\IeC {\"a}ttchen}{11}
-\contentsline {subsection}{\numberline {2.2.1}Material}{11}
-\contentsline {subsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{12}
-\contentsline {subsection}{\numberline {2.2.3}Messergebnisse}{12}
-\contentsline {subsection}{\numberline {2.2.4}Auswertung}{14}
-\contentsline {subsubsection}{\nonumberline Hallkonstante}{14}
-\contentsline {subsubsection}{\nonumberline Ladungstr\IeC {\"a}gerkonzentration}{15}
-\contentsline {subsubsection}{\nonumberline Driftgeschwindigkeit}{15}
-\contentsline {chapter}{\numberline {3}Fehlerbetrachtung}{17}
-\contentsline {section}{\numberline {3.1}Silberpl\IeC {\"a}ttchen}{17}
-\contentsline {section}{\numberline {3.2}Germaniumpl\IeC {\"a}tchen}{17}
+\contentsline {chapter}{\numberline {1}Theorie}{4}
+\contentsline {section}{\numberline {1.1}Driftgeschwindigkeit}{4}
+\contentsline {section}{\numberline {1.2}Halleffekt}{5}
+\contentsline {chapter}{\numberline {2}Versuch}{7}
+\contentsline {section}{\numberline {2.1}Silberpl\IeC {\"a}ttchen}{7}
+\contentsline {subsection}{\numberline {2.1.1}Material}{7}
+\contentsline {subsection}{\numberline {2.1.2}Durchf\IeC {\"u}hrung}{8}
+\contentsline {subsection}{\numberline {2.1.3}Messergebnisse}{8}
+\contentsline {subsection}{\numberline {2.1.4}Auswertung}{10}
+\contentsline {subsubsection}{\nonumberline Hallkonstante}{10}
+\contentsline {subsubsection}{\nonumberline Ladungstr\IeC {\"a}gerkonzentration}{11}
+\contentsline {subsubsection}{\nonumberline Anzahl der Leitungselektronen pro Atom}{12}
+\contentsline {subsubsection}{\nonumberline Driftgeschwindigkeit}{12}
+\contentsline {section}{\numberline {2.2}Germaniumpl\IeC {\"a}ttchen}{13}
+\contentsline {subsection}{\numberline {2.2.1}Material}{13}
+\contentsline {subsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{14}
+\contentsline {subsection}{\numberline {2.2.3}Messergebnisse}{14}
+\contentsline {subsection}{\numberline {2.2.4}Auswertung}{16}
+\contentsline {subsubsection}{\nonumberline Hallkonstante}{16}
+\contentsline {subsubsection}{\nonumberline Ladungstr\IeC {\"a}gerkonzentration}{17}
+\contentsline {subsubsection}{\nonumberline Driftgeschwindigkeit}{17}
+\contentsline {chapter}{\numberline {3}Fehlerbetrachtung}{19}
+\contentsline {section}{\numberline {3.1}Silberpl\IeC {\"a}ttchen}{19}
+\contentsline {section}{\numberline {3.2}Germaniumpl\IeC {\"a}ttchen}{19}

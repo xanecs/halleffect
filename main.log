@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.11)  13 MAY 2016 01:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.11)  13 MAY 2016 02:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,6 +46,12 @@ Package scrreprt Info: You've used standard option `12pt'.
 (scrreprt)             If you'd like to set the option with \KOMAoptions,
 (scrreprt)             you'd have to use `fontsize=12pt' there
 (scrreprt)             instead of `12pt', too.
+Class scrreprt Info: You've used standard option `abstracton'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `abstract=true'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `abstract=true' there
+(scrreprt)           instead of `abstracton', too.
 Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 2248.
 
@@ -2245,12 +2251,19 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+[2
+
+
+] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-
-(./chapters/theorie.tex [2
+ (./chapters/theorie.tex [3
 
 ]
 chapter 1.
@@ -2269,15 +2282,28 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
+<img/halleffekt_plaettchen.pdf, id=15, 360.34625pt x 158.5925pt>
+File: img/halleffekt_plaettchen.pdf Graphic file (type pdf)
 
-Overfull \hbox (38.8968pt too wide) in paragraph at lines 25--26
+<use img/halleffekt_plaettchen.pdf>
+Package pdftex.def Info: img/halleffekt_plaettchen.pdf used on input line 4.
+(pdftex.def)             Requested size: 268.8813pt x 118.33665pt.
+ [4
+
+ <./img/halleffekt_plaettchen.pdf>]
+<img/halleffekt_kraft.pdf, id=35, 75.28125pt x 202.7575pt>
+File: img/halleffekt_kraft.pdf Graphic file (type pdf)
+
+<use img/halleffekt_kraft.pdf>
+Package pdftex.def Info: img/halleffekt_kraft.pdf used on input line 32.
+(pdftex.def)             Requested size: 67.2169pt x 181.0538pt.
+
+Overfull \hbox (38.8968pt too wide) in paragraph at lines 36--37
 \OT1/cmr/m/n/12 steht im Lei-ter-pl[]attchen ein elek-tri-sches Feld. Nach kur-
 z-er Zeit stellt sich das Kr[]aftegleichgewicht 
  []
 
-[3
-
-]) (./chapters/versuch.tex [4]
+[5 <./img/halleffekt_kraft.pdf>]) (./chapters/versuch.tex [6]
 chapter 2.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -2285,10 +2311,10 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
- [5
+ [7
 
 ]
-<img/silver.jpg, id=26, 6022.5pt x 2124.93875pt>
+<img/silver.jpg, id=64, 6022.5pt x 2124.93875pt>
 File: img/silver.jpg Graphic file (type jpg)
  <use img/silver.jpg>
 Package pdftex.def Info: img/silver.jpg used on input line 42.
@@ -2297,36 +2323,36 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [6 <./img/silver.jpg>] <data/silber.pdf, id=31, 803.0pt x 602.25pt>
+) [8 <./img/silver.jpg>] <data/silber.pdf, id=69, 803.0pt x 602.25pt>
 File: data/silber.pdf Graphic file (type pdf)
  <use data/silber.pdf>
 Package pdftex.def Info: data/silber.pdf used on input line 64.
 (pdftex.def)             Requested size: 448.13095pt x 336.109pt.
- [7]
-[8 <./data/silber.pdf>] [9] [10] [11]
-<img/germanium.jpg, id=60, 4392.41pt x 2978.12625pt>
+ [9]
+[10 <./data/silber.pdf>] [11] [12] [13]
+<img/germanium.jpg, id=98, 4392.41pt x 2978.12625pt>
 File: img/germanium.jpg Graphic file (type jpg)
  <use img/germanium.jpg>
 Package pdftex.def Info: img/germanium.jpg used on input line 192.
 (pdftex.def)             Requested size: 268.8813pt x 182.26982pt.
 
-[12 <./img/germanium.jpg>] <data/germanium.pdf, id=64, 803.0pt x 602.25pt>
+[14 <./img/germanium.jpg>] <data/germanium.pdf, id=102, 803.0pt x 602.25pt>
 File: data/germanium.pdf Graphic file (type pdf)
 
 <use data/germanium.pdf>
 Package pdftex.def Info: data/germanium.pdf used on input line 214.
 (pdftex.def)             Requested size: 448.13095pt x 336.109pt.
- [13] [14 <./data/germanium.pdf>] [15])
-(./chapters/fehler.tex [16]
+ [15] [16 <./data/germanium.pdf>] [17])
+(./chapters/fehler.tex [18]
 chapter 3.
-) [17
+) [19
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 16250 strings out of 494901
- 337139 string characters out of 6178617
- 453264 words of memory out of 5000000
- 19385 multiletter control sequences out of 15000+600000
+ 16261 strings out of 494901
+ 337444 string characters out of 6178617
+ 453285 words of memory out of 5000000
+ 19393 multiletter control sequences out of 15000+600000
  14119 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  48i,28n,69p,10377b,1196s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2343,10 +2369,10 @@ blic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
-Output written on main.pdf (17 pages, 4070780 bytes).
+Output written on main.pdf (19 pages, 4101734 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 171 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

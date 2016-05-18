@@ -165,8 +165,14 @@ INPUT main.toc
 OUTPUT main.toc
 INPUT chapters/theorie.tex
 INPUT chapters/theorie.tex
+INPUT img/halleffekt_plaettchen.pdf
+INPUT ./img/halleffekt_plaettchen.pdf
+INPUT ./img/halleffekt_plaettchen.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT img/halleffekt_kraft.pdf
+INPUT ./img/halleffekt_kraft.pdf
+INPUT ./img/halleffekt_kraft.pdf
 INPUT chapters/versuch.tex
 INPUT chapters/versuch.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
